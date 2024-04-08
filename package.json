@@ -1,0 +1,22 @@
+{
+  "name": "console-with-test",
+  "version": "1.0.0",
+  "description": "This is a template for console apps in node with testing",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "tdd",
+    "template"
+  ],
+  "author": "Juan De Jesus",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
